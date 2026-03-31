@@ -1,5 +1,5 @@
 def add(a, b):
-    """加法函数 - 支持浮点数"""
+    """数"""
     return float(a) + float(b)
 
 def subtract(a, b):
