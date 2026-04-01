@@ -1,6 +1,9 @@
+import logging
+
 def add(a, b):
-    """数"""
-    return float(a) + float(b)
+    """加法函数 - 带日志记录"""
+    logging.info(f"执行加法: {a} + {b}")
+    return a + b
 
 def subtract(a, b):
     """减法函数 - 带日志记录"""
