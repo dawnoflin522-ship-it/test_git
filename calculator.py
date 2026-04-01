@@ -17,7 +17,8 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    """除法函数"""
+    """main修改除法函数"""
+    logging.info(f"main 修改减法函数: {a} + {b}")
     if b == 0:
         raise ValueError("除数不能为零")
     return a / b
