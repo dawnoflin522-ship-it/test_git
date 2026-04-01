@@ -12,6 +12,7 @@ def subtract(a, b):
 
 def multiply(a, b):
     """乘法函数 - 支持大数"""
+     logging.info(f"main 修改乘法函数: {a} + {b}")
     return a * b
 
 def divide(a, b):
