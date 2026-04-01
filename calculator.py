@@ -7,6 +7,7 @@ def add(a, b):
 
 def subtract(a, b):
     """减法函数 - 带日志记录"""
+    logging.info(f"main 修改减法函数: {a} + {b}")
     print(f"Subtracting {b} from {a}")
     return a - b
 
