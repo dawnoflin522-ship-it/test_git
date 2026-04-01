@@ -22,6 +22,5 @@ def divide(a, b):
 
 def power(a, b):
     """幂运算"""
-     logging.info(f"main幂运算: {a} + {b}")
-     logging.info(f"main幂运算: {a} + {b}")
+    logging.info(f"执行幂运算: {a} + {b}")
     return a ** b
